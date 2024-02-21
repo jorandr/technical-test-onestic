@@ -33,7 +33,7 @@ In this initial phase, several key decisions were made regarding the implementat
    - After evaluating various options, i have decided to leverage Docker for containerization. Docker provides lightweight and portable containers, making it easier to manage application dependencies and deployment across different environments.
 
 2. **Cloud Platform Choice:**
-   - Considering factors such as scalability, reliability, and ease of use, we have opted to utilize Amazon Web Services (AWS) as the cloud platform for hosting the infrastructure. AWS offers a wide range of services and features, including Elastic Compute Cloud (EC2) for virtual servers or Elastic Load Balancing (ELB), which are not required for this stage, but will be a good option for the future.
+   - Considering factors such as scalability, reliability, and ease of use, we have opted to utilize Amazon Web Services (AWS) as the cloud platform for hosting the infrastructure. AWS offers a wide range of services and features, including Elastic Compute Cloud (EC2) for virtual servers or Elastic Load Balancing (ELB) or Virtual Private Connections (VPC), that will be a good option for the future.
 
 3. **Infrastructure as Code (IaC) Approach:**
    - To ensure consistency, repeatability, and scalability in the deployment process,i have chosen to implement Infrastructure as Code (IaC) principles. Terraform has been selected as the tool of choice for defining and provisioning the infrastructure resources in a declarative manner.
