@@ -8,7 +8,7 @@
   - [Networking Configuration (VPC, Subnet, Gateway)](#networking-configuration-vpc-subnet-gateway)
     - [Initial Configuration](#1-initial-configuration)
     - [Private IP Assignment](#2-private-ip-assignment)
-    - [VPC, Subnet, and Gateway Configuration](#3-vpc-subnet-and-gateway-configuration)
+    - [VPC, Subnet, and Gateway Configuration](#3-vpc-sub-ent-and-gateway-configuration)
     - [Security Configuration](#4-security-configuration)
   - [WordPress Container Configuration](#wordpress-container-configuration)
     - [Docker/Wordpress Issues](#1-dockerwordpress-issues)
@@ -18,6 +18,7 @@
     - [Container Configuration](#3-container-configuration)
     - [Nginx Logging Enablement](#4-nginx-logging-enablement)
     - [HAProxy Load Balancer Configuration](#5-haproxy-load-balancer-configuration)
+- [Security Considerations](#security-considerations)
 - [Assistance from ChatGPT](#assistance-from-chatgpt)
 
 ## Getting Started
@@ -115,3 +116,8 @@ Following the guide on [Adictos al Trabajo](https://www.adictosaltrabajo.com/202
 ## Assistance from ChatGPT
 
 Throughout the technical test, ChatGPT was used as a supportive tool to aid in various aspects of the process. It provided assistance in refining language, structuring documentation, resolving issues, and ensuring clarity and coherence in the implementation steps.
+
+## Security Considerations
+
+Access to instances is done via SSH using a .pem key file, securely stored outside the repository for confidentiality. Similarly, AWS authentication keys necessary for access are managed within the terraform.tfvars file, which is not included in the repository for the same reason.
+
