@@ -121,6 +121,9 @@ Access to instances is done via SSH using a .pem key file, securely stored outsi
 ## Connection Considerations
 
 The WordPress application can be accessed through the IP address 184.73.29.84. Users can interact with the WordPress site using this IP address.
+For the ssh access:
+  - Load Balancer (direct access) -> 184.73.29.84
+  - Wordpress (isolated instance) -> 3.86.89.81
 
 ## Assistance from ChatGPT
 
