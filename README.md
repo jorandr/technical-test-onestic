@@ -113,11 +113,12 @@ Following the guide on [Adictos al Trabajo](https://www.adictosaltrabajo.com/202
    - After successful configuration of the load balancer, access to the Wordpress container through the balancer was verified, as well as direct access to the instance hosting Wordpress, confirming that direct access was not permitted, only through the balancer as per the documentation.
    - This final step is linked with the last step of the "Networking Configuration 4", concluding the security configuration.
 
+## Security Considerations
+
+Access to instances is done via SSH using a .pem key file, securely stored outside the repository for confidentiality. Similarly, AWS authentication keys necessary for access are managed within the terraform.tfvars file, which is not included in the repository for the same reason.
+
 ## Assistance from ChatGPT
 
 Throughout the technical test, ChatGPT was used as a supportive tool to aid in various aspects of the process. It provided assistance in refining language, structuring documentation, resolving issues, and ensuring clarity and coherence in the implementation steps.
 
-## Security Considerations
-
-Access to instances is done via SSH using a .pem key file, securely stored outside the repository for confidentiality. Similarly, AWS authentication keys necessary for access are managed within the terraform.tfvars file, which is not included in the repository for the same reason.
 
