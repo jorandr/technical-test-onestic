@@ -100,7 +100,7 @@ Following the guide on [Adictos al Trabajo](https://www.adictosaltrabajo.com/202
    - Initial manual testing with Nginx before configuring with Terraform.
 
 #### 3. Container Configuration
-   - A tutorial on [YouTube](https://www.youtube.com/watch?v=_klWWkzfyes&ab_channel=HAH-Tech) was followed to isolate the configuration in a separate file (Dockerfile and nginx.con, but ultimately, due to issues and simplicity, the content was copied to the necessary file using the "echo" command.
+   - A tutorial on [YouTube](https://www.youtube.com/watch?v=_klWWkzfyes&ab_channel=HAH-Tech) was followed to isolate the configuration in a separate file (`Dockerfile` and `nginx.conf`, but ultimately, due to issues and simplicity, the content was copied to the necessary file using the "echo" command.
 
 #### 4. Nginx Logging Enablement
    - Nginx logs were enabled to diagnose redirection issues.
