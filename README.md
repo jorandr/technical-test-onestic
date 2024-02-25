@@ -38,6 +38,4 @@ In this initial phase, several key decisions were made regarding the implementat
 3. **Infrastructure as Code (IaC) Approach:**
    - To ensure consistency, repeatability, and scalability in the deployment process,i have chosen to implement Infrastructure as Code (IaC) principles. Terraform has been selected as the tool of choice for defining and provisioning the infrastructure resources in a declarative manner.
 
-By carefully considering these factors and making informed decisions, i aim to build a reliable, scalable, and secure infrastructure that meets the needs of requirements.The use of Docker, AWS, and Terraform will enable us to implement the infrastructure in a consistent, efficient, and automated manner, while also providing flexibility for future enhancements and optimizations.
-
 
