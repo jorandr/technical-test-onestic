@@ -19,6 +19,7 @@
     - [Nginx Logging Enablement](#4-nginx-logging-enablement)
     - [HAProxy Load Balancer Configuration](#5-haproxy-load-balancer-configuration)
 - [Security Considerations](#security-considerations)
+- [Connection Considerations](#connection-considerations)
 - [Assistance from ChatGPT](#assistance-from-chatgpt)
 
 ## Getting Started
@@ -116,6 +117,10 @@ Following the guide on [Adictos al Trabajo](https://www.adictosaltrabajo.com/202
 ## Security Considerations
 
 Access to instances is done via SSH using a .pem key file, securely stored outside the repository for confidentiality. Similarly, AWS authentication keys necessary for access are managed within the terraform.tfvars file, which is not included in the repository for the same reason.
+
+## Connection Considerations
+
+The WordPress application can be accessed through the IP address 184.73.29.84 as specified in the requirements. Users can interact with the WordPress site using this IP address.
 
 ## Assistance from ChatGPT
 
